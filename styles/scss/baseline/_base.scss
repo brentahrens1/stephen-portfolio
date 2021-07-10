@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+body {
+  padding: 0 $padding-sm;
+}
+
 a {
   text-decoration: none;
 }
