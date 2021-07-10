@@ -1,0 +1,17 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $padding-sm $padding-sm;
+    height: $height-sm;
+
+    ul {
+        padding: 0;
+        display: flex;
+
+        li {
+            list-style: none;
+            margin-left: 1.5rem;
+        }
+    }
+}

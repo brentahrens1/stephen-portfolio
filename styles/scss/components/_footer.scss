@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    padding: $padding-sm $padding-sm;
+
+    p {
+        margin: 0;
+    }
+
+    .lead {
+        margin-bottom: $margin-sm;
+    }
+
+    &__section {
+        display: flex;
+        flex-direction: column;
+        justify-items: flex-start;
+        margin-right: $margin-md;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
