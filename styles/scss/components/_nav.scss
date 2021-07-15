@@ -5,6 +5,11 @@
     padding: $padding-sm 0;
     height: $height-sm;
 
+    p {
+        font-size: $text-md;
+        color: $purple;
+    }
+
     ul {
         padding: 0;
         display: flex;
@@ -12,6 +17,11 @@
         li {
             list-style: none;
             margin-left: 1.5rem;
+            font-size: $text-md;
+
+            a:link, a:visited {
+                color: $purple;
+            }
         }
     }
 }

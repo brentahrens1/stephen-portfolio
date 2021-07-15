@@ -1,6 +1,28 @@
 .info-block {
-    border: 1.3rem solid #000;
+    height: 550px;
+    border: 1.3rem solid $purple;
     display: flex;
     align-items: center;
-    height: 300px;
+    background-color: $bannerBackground;
+    position: relative;
+
+    p {
+        font-size: $text-lg;
+        color: $purple;
+        width: 65%;
+        margin-left: $padding-md;
+        padding: $padding-xl 0;
+    }
+
+    &__image {
+        width: 17rem;
+        transform: rotate(3.41deg);
+        position: absolute;
+        bottom: -17rem;
+        right: 0;
+
+        img {
+            width: 100%;
+        }
+    }
 }

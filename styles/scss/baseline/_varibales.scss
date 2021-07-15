@@ -1,7 +1,14 @@
 // COLORS 
+$purple: #5F4F66;
+$bannerBackground: rgba(120, 100, 129, 0.1);
+$black: #080809;
 
 // PADDING
+$padding-xs: 1rem;
 $padding-sm: 1.5rem;
+$padding-md: 3rem;
+$padding-lg: 5rem;
+$padding-xl: 6rem;
 
 // MARGIN
 $margin-sm: .5rem;
@@ -9,3 +16,9 @@ $margin-md: 5rem;
 
 //HEIGHT
 $height-sm: 4rem;
+
+//FONT SIZE
+$text-sm: 1.25rem; //20px
+$text-md: 1.5rem; //24px
+$text-hover: 2rem; // 32
+$text-lg: 2.5rem; //40px

@@ -6,12 +6,24 @@ body {
 
 body {
   padding: 0 $padding-sm;
+  font-family: Jost;
 }
 
-a {
+a:link, a:visited {
   text-decoration: none;
+  color: $purple;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#footer {
+  margin-top: auto;
 }
