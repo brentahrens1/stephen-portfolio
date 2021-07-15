@@ -13,7 +13,7 @@ export default function ProjectGrid() {
                                 <div key={id} className="project-grid__item">
                                     <img src={project.img.src} alt="test" />
                                     <div style={{backgroundColor: project.background}} className="item-hover">
-                                        <p>{project.title}</p>
+                                        <p style={{color: `${project.color}`}}>{project.title}</p>
                                     </div>
                                 </div>
                             </a>
