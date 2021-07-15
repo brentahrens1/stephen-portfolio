@@ -1,11 +1,13 @@
+ import Link from 'next/link'
+
 export default function Nav() {
     return (
         <nav className="nav">
-            <p><a href="/">Stephen Galgano</a></p>
+            <p><Link href="/"><a>Stephen Galgano</a></Link></p>
             <ul>
-                <li><a href="/design">Design</a></li>
-                <li><a href="#">Personal Projects</a></li>
-                <li><a href="/about">About</a></li>
+                <li><Link href="/design"><a>Design</a></Link></li>
+                <li><Link href="#"><a>Personal Projects</a></Link></li>
+                <li><Link href="/about"><a>About</a></Link></li>
             </ul>
         </nav>
     )

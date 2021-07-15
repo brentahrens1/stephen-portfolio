@@ -9,31 +9,37 @@ export const projectList = [
     {
         img: numberStation,
         title: 'Number Station',
-        background: '#359EE8'
+        background: '#359EE8',
+        link: '/number-station'
     },
     {
         img: dogDays,
         title: 'Dog Days',
-        background: '#BC7E93'
+        background: '#BC7E93',
+        link: '/number-station'
     },
     {
         img: pricklyPear,
         title: 'Prickly Pear',
-        background: '#E32B2B'
+        background: '#E32B2B',
+        link: '/number-station'
     },
     {
         img: niceHands,
         title: 'Nice Hands',
-        background: '#92278F'
+        background: '#92278F',
+        link: '/number-station'
     },
     {
         img: waveFest,
         title: 'Wave Festival',
-        background: '#2C3674'
+        background: '#2C3674',
+        link: '/number-station'
     },
     {
         img: kidQuix,
         title: 'Kid Quixot',
-        background: '#343C38'
+        background: '#343C38',
+        link: '/number-station'
     },
 ]
