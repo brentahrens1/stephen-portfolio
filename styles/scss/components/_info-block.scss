@@ -5,6 +5,15 @@
     align-items: center;
     background-color: $bannerBackground;
     position: relative;
+    margin-bottom: 20rem;
+    @include atSmallMedium {
+        height: 690px;
+        padding-top: $padding-sm;
+        width: 100%;
+    }
+    @include atExtraSmall {
+        border: 1rem solid $purple;
+    }
 
     p {
         font-size: $text-lg;
@@ -12,6 +21,16 @@
         width: 65%;
         margin-left: $padding-md;
         padding: $padding-xl 0;
+        @include atSmallMedium {
+            font-size: 1.5rem;
+            align-self: flex-start;
+            padding: 0 0;
+            margin-left: $padding-sm;
+        }
+        @include atExtraSmall {
+            width: 100%;
+            font-size: 1.4rem;
+        }
     }
 
     &__image {
@@ -20,6 +39,9 @@
         position: absolute;
         bottom: -17rem;
         right: 0;
+        @include atExtraSmall {
+            right: 0%;
+        }
 
         img {
             width: 100%;

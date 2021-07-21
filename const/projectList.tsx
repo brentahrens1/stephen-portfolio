@@ -17,7 +17,7 @@ export const projectList = [
         img: dogDays,
         title: 'Dog Days',
         background: '#BC7E93',
-        link: '/number-station',
+        link: '/dog-days',
         color: '#000'
     },
     {

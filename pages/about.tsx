@@ -7,28 +7,39 @@ export default function About() {
                 </div>
                 <div className="brand">
                     <div className="brand__inner">
-                        <h2>Idenity Design</h2>
-                        <h2>Brand Strategy</h2>
-                        <h2>Design & Art</h2>
-                        <h2>Social Media</h2>
-                        <h2>Direction</h2>
-                        <h2>Digital</h2>
-                        <h2>Print</h2>
+                        <h1>Who is Stephen Galgano?</h1>
+                        <h2>I'm a Multi-disciplinary Desinger & Visual Thinker from New York</h2>
+                        <p>Relentlessly pursuing new ways to communicate, collaborate and connect with people through design and music.</p>
+                        <button><a href="#">View Resume</a></button>
                     </div>
                 </div>
             </div>
-            <div className="about__content">
-                <h2>About Me</h2>
-                <p className="blurb"> I'm a multidisciplinary designer and visual thinker from New York, utilizing my keen eye for imaginative visual language to create design systems with purpose.</p>
+            <div className="about__info">
+                <h2>A Bit More About Me...</h2>
+                <p className="blurb">Lover of Logos, Hoodies, Details, Branding, Audio Engineering, Meditation, Typography, Cinematography and Carl Sagan.</p>
             </div>
             <div className="about__content">
-                <h2>Contact</h2>
-                <div className="links">
-                    <p><a href="#">stephenjgalgano@gmail.com</a></p>
-                    <p><a href="#">Linkedin</a></p>
-                    <p><a href="#">View Resume</a></p>
+                <h2>Currently:</h2>
+                <div className="grid">
+                    <div className="item">
+                        <h2>Learning</h2>
+                        <p>Digital Project Management And Spanish.</p>
+                    </div>
+                    <div className="item">
+                        <h2>Contemplating </h2>
+                        <p>Quiet Over Loudness </p>
+                    </div>
+                    <div className="item">
+                        <h2>Listening</h2>
+                        <p>Sun Ra - Lanquidity<br /> Frank Ocean - Blond<br /> Pescado Rabioso - Artaud</p>
+                    </div>
                 </div>
                 <p></p>
+            </div>
+            <div className="about__contact">
+                <h2 className="header">Want to collaborate or discuss Frank Ocean’s “Boys Don’t Cry” Magazine Layout?</h2>
+                <h2>Let’s Talk</h2>
+                <p><a href="mailto:stephenjgalgano@gmail.com" target="_blank">stephenjgalgano@gmail.com</a></p>
             </div>
         </div>
     )

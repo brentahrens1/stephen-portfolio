@@ -1,4 +1,10 @@
 //Media Queries
+@mixin atExtraSmall {
+    @media (max-width: 450px) {
+        @content;
+    }
+}
+
 @mixin atSmall {
     @media (max-width: 530px) {
         @content;

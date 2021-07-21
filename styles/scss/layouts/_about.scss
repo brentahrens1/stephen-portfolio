@@ -1,15 +1,26 @@
 .about {
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
+    margin: $padding-lg auto;
+    padding-bottom: $padding-xl;
+    @include atSmallMedium {
+        margin: $padding-sm auto;
+        padding-bottom: $padding-md;
+    }
 
     &__top {
         display: flex;
         justify-content: center;
         margin-bottom: 3rem;
+        @include atSmallMedium {
+            flex-direction: column;
+        }
 
         .profile {
             width: 50%;
             margin-right: $padding-xs;
+            @include atSmallMedium {
+                width: 100%;
+            }
 
             img {
                 width: 100%;
@@ -23,47 +34,129 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            background-color: $purple;
-            margin-left: $padding-xs;
+            margin-left: $padding-xl;
+            @include atSmallMedium {
+                width: 100%;
+                margin-left: 0;
+            }
 
+            h1 {
+                font-size: $text-lg;
+                color: $purple;
+                margin-bottom: 4rem;
+                @include atSmallMedium {
+                    font-size: $text-md;
+                    margin-bottom: 0;
+                }
+            }
+            
             h2 {
-                margin: 0;
-                margin-bottom: .5rem;
-                justify-self: flex-start;
-                color: #fff;
+                color: $purple;
+                font-size: $text-hover;
+                @include atSmallMedium {
+                    font-size: $text-sm;
+                }
+            }
+
+            p {
+                font-size: $text-md;
+                color: $purple;
+                line-height: 34.68px;
+                @include atSmallMedium {
+                    font-size: $text-sm;
+                }
+            }
+
+            button {
+                font-size: $text-sm;
+                background-color: $purple;
+                border: none;
+
+                a:link, a:visited {
+                    color: #fff;
+                    padding: .5rem;
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    &__info {
+        text-align: center;
+        color: $purple;
+        padding-top: $padding-xl;
+        width: 80%;
+        margin: 0 auto;
+        @include atSmallMedium {
+            width: 100%;
+            padding-top: $padding-sm;
+        }
+
+        h2 {
+            font-size: $text-hover;
+            @include atSmallMedium {
+                font-size: $text-md;
+            }
+        }
+
+        p {
+            font-size: $text-md;
+            @include atSmallMedium {
+                font-size: $text-sm;
             }
         }
     }
 
     &__content {
-        display: flex;
-        align-items: flex-start;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: $padding-xl;
         color: $purple;
-        padding: $padding-md 0;
-
-        h2 {
-            width: 50%;
-            margin: 0;
+        @include atSmallMedium {
+            width: 100%;
+            padding-top: $padding-sm;
         }
 
-        .blurb {
-            width: 50%;
-            margin: 0;
-            margin-left: $padding-sm;
-        }
-        
-        .links {
-            margin-left: $padding-sm;
-            width: 50%;            
-            p {
-                margin: 0;
-                margin-bottom: .4rem;
-                width: 50%;
-
-                &:nth-child(3) {
-                    margin-top: 6rem;
-                }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(1, 1fr);
+            gap: 1rem;
+            @include atSmallMedium {
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: repeat(3, 110px);
             }
+
+            .item {
+                width: 100%;
+            }
+        }
+    }
+
+    &__contact {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: $padding-xl;
+        color: $purple;
+        @include atSmallMedium {
+            width: 100%;
+            padding-top: $padding-lg;
+        }
+
+        h2, p {
+            margin: 0;
+        }
+
+        p {
+            margin-top: 1rem;
+        }
+
+        .header {
+            margin-bottom: 3rem;
         }
     }
 }

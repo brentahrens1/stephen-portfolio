@@ -13,6 +13,10 @@
         width: 75%;
         margin: 0 auto;
         margin-bottom: 5rem;
+        @include atSmallMedium {
+            width: 100%;
+            margin-bottom: 2rem;
+        }
 
         &.last {
             margin-bottom: 0;
@@ -29,11 +33,20 @@
         padding: $padding-xl 0;
         width: 70%;
         margin: 0 auto;
+        @include atSmallMedium {
+           flex-direction: column;
+           width: 100%;
+           padding: $padding-md 0;
+        }
 
         h2 {
             font-size: $text-hover;
             color: $purple;
             align-self: flex-start;
+            @include atSmallMedium {
+                order: 1;
+                margin: 0;
+            }
         }
         
         p {
@@ -41,6 +54,12 @@
             width: 60%;
             margin-top: $padding-xl;
             margin-left: $padding-md;
+            @include atSmallMedium {
+                width: 100%;
+                margin-left: 0;
+                order: 2;
+                margin-top: $padding-sm;
+            }
         }
     }
 }
