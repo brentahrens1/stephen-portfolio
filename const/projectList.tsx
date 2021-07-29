@@ -24,7 +24,7 @@ export const projectList = [
         img: pricklyPear,
         title: 'Prickly Pear',
         background: '#E32B2B',
-        link: '/number-station',
+        link: '/prickly-pear',
         color: '#fff'
     },
     {

@@ -1,11 +1,14 @@
 .info-block {
-    height: 550px;
+    height: 650px;
     border: 1.3rem solid $purple;
     display: flex;
     align-items: center;
     background-color: $bannerBackground;
     position: relative;
     margin-bottom: 20rem;
+    @include atMedium {
+        align-items: flex-start;
+    }
     @include atSmallMedium {
         height: 690px;
         padding-top: $padding-sm;
@@ -20,12 +23,21 @@
         color: $purple;
         width: 65%;
         margin-left: $padding-md;
-        padding: $padding-xl 0;
+        @include atMedium {
+            font-size: 2rem;
+        }
         @include atSmallMedium {
+            width: 80%;
             font-size: 1.5rem;
             align-self: flex-start;
             padding: 0 0;
             margin-left: $padding-sm;
+        }
+        @include atSmall {
+            width: 100%;
+            font-size: 1.4rem;
+            padding: 0 $padding-sm;
+            margin-left: 0;
         }
         @include atExtraSmall {
             width: 100%;

@@ -1,9 +1,11 @@
+import Image from 'next/image'
+
 export default function About() {
     return (
         <div className="about">
             <div className="about__top">
                 <div className="profile">
-                    <img src="/images/about/stephen-about.png" />
+                    <Image width={600} height={750} layout="responsive" src="/images/about/stephen-about.png" />
                 </div>
                 <div className="brand">
                     <div className="brand__inner">

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { projectList } from "../../const/projectList"
 
 export default function ProjectGrid() {
@@ -6,12 +7,11 @@ export default function ProjectGrid() {
         <div className="project-grid">
             {
                 projectList.map((project: any, id: number) => {
-                    console.log(project)
                     return (
-                        <Link href={project.link}>
+                        <Link key={id} href={project.link}>
                             <a>
-                                <div key={id} className="project-grid__item">
-                                    <img src={project.img.src} alt="test" />
+                                <div className="project-grid__item">
+                                    <Image width={1000} height={600} layout="responsive" src={project.img.src} alt="test" />
                                     <div style={{backgroundColor: project.background}} className="item-hover">
                                         <p style={{color: `${project.color}`}}>{project.title}</p>
                                     </div>
