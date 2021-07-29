@@ -8,7 +8,7 @@ export default function dogDays() {
             </div>
             <div className="page__content">
                 <h2>Context</h2>
-                <p>A new musical release by Brooklyn Rap Duo Young Planet, “Dog Days” is a 3 song EP that feels like a hot summer's day. Bouncy production and smooth lyrics paint pictures of trips to the beach, walking on a city street in 90 degree weather with a friend and falling in love.</p>
+                <p>A new musical release by Brooklyn Rap Duo Young Planet, “Dog Days” is a 3 song EP that feels like a hot summer&apos;s day. Bouncy production and smooth lyrics paint pictures of trips to the beach, walking on a city street in 90 degree weather with a friend and falling in love.</p>
             </div>
             <div className="page__banner">
                 <Image width={400} height={280} layout="responsive" src="/images/projects/young-planet/dog-days-1.png" alt="test"  />

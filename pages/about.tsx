@@ -5,12 +5,12 @@ export default function About() {
         <div className="about">
             <div className="about__top">
                 <div className="profile">
-                    <Image width={600} height={750} layout="responsive" src="/images/about/stephen-about.png" />
+                    <Image width={600} height={750} layout="responsive" src="/images/about/stephen-about.png" alt="test" />
                 </div>
                 <div className="brand">
                     <div className="brand__inner">
                         <h1>Who is Stephen Galgano?</h1>
-                        <h2>I'm a Multi-disciplinary Desinger & Visual Thinker from New York</h2>
+                        <h2>I&apos;m a Multi-disciplinary Desinger & Visual Thinker from New York</h2>
                         <p>Relentlessly pursuing new ways to communicate, collaborate and connect with people through design and music.</p>
                         <button><a href="#">View Resume</a></button>
                     </div>
@@ -41,7 +41,7 @@ export default function About() {
             <div className="about__contact">
                 <h2 className="header">Want to collaborate or discuss Frank Ocean’s “Boys Don’t Cry” Magazine Layout?</h2>
                 <h2>Let’s Talk</h2>
-                <p><a href="mailto:stephenjgalgano@gmail.com" target="_blank">stephenjgalgano@gmail.com</a></p>
+                <p><a href="mailto:stephenjgalgano@gmail.com" target="_blank" rel="noreferrer">stephenjgalgano@gmail.com</a></p>
             </div>
         </div>
     )
