@@ -34,7 +34,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            margin-left: $padding-xl;
+            margin-left: $padding-md;
             @include atSmallMedium {
                 width: 100%;
                 margin-left: 0;
