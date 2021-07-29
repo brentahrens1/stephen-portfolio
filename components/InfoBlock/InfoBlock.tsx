@@ -8,7 +8,7 @@ export default function InfoBlock() {
                 <p>Browse my latest projects below, View my resume or say hey.</p>
             </div>
             <div className="info-block__image">
-                <Image src='/images/Stephen/july-home.png' width={380} height={780} layout="responsive" alt="Stephen Galgano | Portfolio" />
+                <Image src='/images/Stephen/july-home.png' width={380} height={780} layout="responsive" priority alt="Stephen Galgano | Portfolio" />
             </div>
         </div>
     )
