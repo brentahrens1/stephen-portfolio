@@ -31,14 +31,14 @@ export const projectList = [
         img: niceHands,
         title: 'Nice Hands',
         background: '#92278F',
-        link: '/number-station',
+        link: '/nice-with-the-hands',
         color: '#fff'
     },
     {
         img: waveFest,
         title: 'Wave Festival',
         background: '#2C3674',
-        link: '/number-station',
+        link: '/wave-festival',
         color: '#fff'
     },
     {

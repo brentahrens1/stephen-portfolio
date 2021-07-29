@@ -10,7 +10,7 @@ export default function waveFestival() {
                 <h2>Context</h2>
                 <p>Wave Festival is where art and craft meet across Auckland, New Zealand. The Festival is the largest cultural celebration of arts + crafts with over 100 exhibitions and events forming Auckland’s design week. This was a study meant to be an exploratory learning experience.</p>
             </div>
-            <div className="page__image">
+            <div className="page__image last">
                 <Image width={400} height={550} layout="responsive" priority src="/images/projects/wave-festival/wave-2.png" alt="test"  />
             </div>
             <div className="page__content">
