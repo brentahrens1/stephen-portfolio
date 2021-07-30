@@ -17,8 +17,8 @@ export default function Nav() {
             </div>
             <div className={`overlay ${navToggle ? 'overlay-open' : ''}`}>
                 <ul>
-                    <li><Link href="/design"><a>Design</a></Link></li>
-                    <li><Link href="/about"><a>About</a></Link></li>
+                    <li onClick={() => setNavToggle(!navToggle)}><Link href="/design"><a>Design</a></Link></li>
+                    <li onClick={() => setNavToggle(!navToggle)}><Link href="/about"><a>About</a></Link></li>
                 </ul>
                 <div className="close" onClick={() => setNavToggle(!navToggle)}>
                     <div className="bar" />
