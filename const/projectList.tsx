@@ -45,7 +45,7 @@ export const projectList = [
         img: kidQuix,
         title: 'Kid Quixot',
         background: '#343C38',
-        link: '/number-station',
+        link: '/kid-quixote',
         color: '#fff'
     },
 ]

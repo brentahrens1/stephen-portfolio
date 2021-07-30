@@ -1,9 +1,17 @@
 .footer {
+    @include atSmallMedium {
+        padding-bottom: $padding-lg;
+    }
     &__inner {
         position: relative;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        height: 5rem;
+        @include atSmallMedium {
+            flex-direction: column;
+            height: 10rem;
+        }
 
         ul {
             display: flex;
@@ -21,7 +29,6 @@
                     margin-right: 0;
                 }
             }
-
         }
 
         .back-to-top {
