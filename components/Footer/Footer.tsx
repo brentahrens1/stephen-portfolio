@@ -9,7 +9,7 @@ export default function Footer() {
         <footer className="footer">
             <div className="footer__inner">
                 <ul>
-                    <li><a href="https://www.linkedin.com/in/stephen-galgano-bb231520a/" target="_blank">Linkedin</a></li>
+                    <li><a href="https://www.linkedin.com/in/stephen-galgano-bb231520a/" target="_blank" rel="noreferrer">Linkedin</a></li>
                     <li><a href="/resume/STEPHEN_GALGANO_GD_RESUME_2021.pdf">Resume</a></li>
                     <li><a href="mailto:stephenjgalgano@gmail.com">stephenjgalgano@gmail.com</a></li>
                 </ul>
