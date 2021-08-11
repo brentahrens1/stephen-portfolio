@@ -43,7 +43,7 @@ export const projectList = [
     },
     {
         img: kidQuix,
-        title: 'Kid Quixot',
+        title: 'Kid Quixote',
         background: '#343C38',
         link: '/kid-quixote',
         color: '#fff'

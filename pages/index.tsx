@@ -7,7 +7,9 @@ export default function Home() {
   return (
     <div className="app">
       <InfoBlock />
-      <ProjectGrid />
+      <div id="design">
+        <ProjectGrid />
+      </div>
     </div>
   )
 }

@@ -12,7 +12,7 @@ export default function About() {
                         <h1>Who is Stephen Galgano?</h1>
                         <h2>I&apos;m a Multi-disciplinary Desinger & Visual Thinker from New York</h2>
                         <p>Relentlessly pursuing new ways to communicate, collaborate and connect with people through design and music.</p>
-                        <button><a href="#">View Resume</a></button>
+                        <button><a href="/resume/STEPHEN_GALGANO_GD_RESUME_2021.pdf" target="_blank">View Resume</a></button>
                     </div>
                 </div>
             </div>

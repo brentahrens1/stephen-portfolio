@@ -9,8 +9,8 @@ export default function Footer() {
         <footer className="footer">
             <div className="footer__inner">
                 <ul>
-                    <li><a href="#">Linkedin</a></li>
-                    <li><a href="#">Resume</a></li>
+                    <li><a href="https://www.linkedin.com/in/stephen-galgano-bb231520a/" target="_blank">Linkedin</a></li>
+                    <li><a href="/resume/STEPHEN_GALGANO_GD_RESUME_2021.pdf">Resume</a></li>
                     <li><a href="mailto:stephenjgalgano@gmail.com">stephenjgalgano@gmail.com</a></li>
                 </ul>
                 <svg onClick={backToTop} className="back-to-top" width="16" height="35" viewBox="0 0 16 35" fill="none" xmlns="http://www.w3.org/2000/svg">
