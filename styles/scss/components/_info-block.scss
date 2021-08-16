@@ -8,6 +8,7 @@
     margin-bottom: 600px;
     @include atMedium {
         align-items: flex-start;
+        margin-bottom: 300px;
     }
     @include atSmallMedium {
         height: 690px;
