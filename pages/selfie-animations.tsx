@@ -4,7 +4,7 @@ export default function selfieAnimations() {
     return (
         <div className="page">
             <div className="page__banner">
-                <Image width={400} height={170} layout="responsive" priority src="/motion/selfie-motion.png" alt="test" />
+                <Image width={400} height={170} layout="responsive" priority={true} src="/motion/selfie-motion.png" alt="test" />
             </div>
             <div className="page__content">
                 <h2>Context</h2>
@@ -12,16 +12,16 @@ export default function selfieAnimations() {
             </div>
             <div className="page__grid">
                 <div className="item">
-                    <Image width={400} height={300} layout="responsive" priority src="/motion/happy-motion.gif" alt="test" />
+                    <Image width={400} height={300} layout="responsive" priority={true} src="/motion/happy-motion.gif" alt="test" />
                 </div>
                 <div className="item">
-                    <Image width={400} height={300} layout="responsive" priority src="/motion/eye-motion.gif" alt="test" />
+                    <Image width={400} height={300} layout="responsive" priority={true} src="/motion/eye-motion.gif" alt="test" />
                 </div>
                 <div className="item">
-                    <Image width={400} height={300} layout="responsive" priority src="/motion/neon-motion.gif" alt="test" />
+                    <Image width={400} height={300} layout="responsive" priority={true} src="/motion/neon-motion.gif" alt="test" />
                 </div>
                 <div className="item">
-                    <Image width={400} height={300} layout="responsive" priority src="/motion/red-motion.gif" alt="test" />
+                    <Image width={400} height={300} layout="responsive" priority={true} src="/motion/red-motion.gif" alt="test" />
                 </div>
             </div>
         </div>

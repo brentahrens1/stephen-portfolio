@@ -13,7 +13,7 @@ export default function ProjectGrid() {
                         <Link key={id} href={project.link}>
                             <a>
                                 <div className="project-grid__item">
-                                    <Image width={1000} height={600} layout="responsive" priority src={project.img.src} alt="test" />
+                                    <Image width={1000} height={600} layout="responsive" priority={true} src={project.img.src} alt="test" />
                                     <div style={{backgroundColor: project.background}} className="item-hover">
                                         <p style={{color: `${project.color}`}}>{project.title}</p>
                                         <p style={{color: `${project.color}`}} className="subhead">{project.subhead}</p>
@@ -33,7 +33,7 @@ export default function ProjectGrid() {
                         <Link key={id} href={motion.link}>
                             <a>
                                 <div className="motion-grid__item">
-                                    <Image width={1000} height={600} layout="responsive" priority src={motion.gif.src} alt="test" />
+                                    <Image width={1000} height={600} layout="responsive" priority={true} src={motion.gif.src} alt="test" />
                                     <div style={{backgroundColor: motion.background}} className="item-hover">
                                         <p style={{color: `${motion.color}`}}>{motion.title}</p>
                                         <p style={{color: `${motion.color}`}} className="subhead">{motion.subhead}</p>

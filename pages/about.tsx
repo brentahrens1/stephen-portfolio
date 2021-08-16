@@ -5,7 +5,7 @@ export default function About() {
         <div className="about">
             <div className="about__top">
                 <div className="profile">
-                    <Image width={600} height={730} layout="responsive" priority src="/images/about/stephen-about.png" alt="test" />
+                    <Image width={600} height={730} layout="responsive" priority={true} src="/images/about/stephen-about.png" alt="test" />
                 </div>
                 <div className="brand">
                     <div className="brand__inner">
