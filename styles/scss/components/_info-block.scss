@@ -1,11 +1,11 @@
 .info-block {
     height: 650px;
-    border: 1.3rem solid $purple;
+    border: 40px solid $purple;
     display: flex;
     align-items: center;
     background-color: $bannerBackground;
     position: relative;
-    margin-bottom: 20rem;
+    margin-bottom: 600px;
     @include atMedium {
         align-items: flex-start;
     }
@@ -25,37 +25,52 @@
     p {
         font-size: $text-lg;
         color: $purple;
-        width: 65%;
+        width: 100%;
         margin-left: $padding-md;
         @include atMedium {
             font-size: 2rem;
         }
         @include atSmallMedium {
-            width: 80%;
             font-size: 1.5rem;
             align-self: flex-start;
             padding: 0 0;
             margin-left: $padding-sm;
         }
         @include atSmall {
-            width: 100%;
             font-size: 1.4rem;
             padding: 0 $padding-sm;
             margin-left: 0;
         }
         @include atExtraSmall {
-            width: 100%;
             font-size: 1.4rem;
         }
     }
 
     &__image {
-        width: 17rem;
+        width: 25rem;
         transform: rotate(3.41deg);
         position: absolute;
-        bottom: -17rem;
+        bottom: -26rem;
         right: 0;
+        @media only screen and (max-width: 1300px) {
+            width: 22rem;
+            bottom: -24rem;
+        }
+        @media only screen and (max-width: 1250px) {
+            width: 19rem;
+            bottom: -21rem;
+        }
+        @media only screen and (max-width: 1130px) {
+            width: 16rem;
+            bottom: -18rem;
+        }
+        @media only screen and (max-width: 600px) {
+            width: 13rem;
+            bottom: -14rem;
+        }
         @include atExtraSmall {
+            width: 12rem;
+            bottom: -13rem;
             right: 0%;
         }
 

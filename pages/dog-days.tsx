@@ -18,6 +18,9 @@ export default function dogDays() {
                 <p>A fun interactive web release that showcases the 3 songs and the playful nature of the group. Information resides on the right side panel, while using call to action to engage moving images in the window to the left. This helps tell the story as well as shed bounce rates.</p>
             </div>
             <div className="page__image">
+                <Image width={500} height={340} layout="responsive" priority src="/images/projects/young-planet/yp.gif" alt="test"  />
+            </div>
+            <div className="page__banner banner-last">
                 <Image width={400} height={280} layout="responsive" priority src="/images/projects/young-planet/dog-days-2.png" alt="test"  />
             </div>
             <div className="page__banner">

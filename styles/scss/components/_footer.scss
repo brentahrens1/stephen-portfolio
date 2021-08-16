@@ -7,7 +7,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        height: 5rem;
+        height: 10rem;
         @include atSmallMedium {
             flex-direction: column;
             height: 10rem;
