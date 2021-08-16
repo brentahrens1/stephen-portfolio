@@ -6,6 +6,7 @@ import { motionList } from "../../const/projectList"
 export default function ProjectGrid() {
     return (
         <>
+        <h2 className="design-header">Design</h2>
         <div className="project-grid">
             {
                 projectList.map((project: any, id: number) => {

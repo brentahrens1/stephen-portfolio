@@ -8,7 +8,7 @@ export default function selfieAnimations() {
             </div>
             <div className="page__content">
                 <h2>Context</h2>
-                <p>Exploratory selfie animations for instagram</p>
+                <p>Exploratory selfie animations for instagram.</p>
             </div>
             <div className="page__grid">
                 <div className="item">

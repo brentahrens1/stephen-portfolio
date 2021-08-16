@@ -26,6 +26,9 @@ export default function numberStation() {
             <div className="page__image">
                 <Image width={400} height={280} layout="responsive" priority={true} src="/images/projects/prickly-pear/pp-1.png" alt="test"  />
             </div>
+            <div className="page__banner banner-last">
+                <Image width={450} height={360} layout="responsive" priority={true} src="/images/projects/prickly-pear/days-pear.png" alt="test"  />
+            </div>
             <div className="page__image">
                 <Image width={400} height={280} layout="responsive" priority={true} src="/images/projects/prickly-pear/pp-7.png" alt="test"  />
             </div>
@@ -33,7 +36,7 @@ export default function numberStation() {
                 <Image width={400} height={280} layout="responsive" priority={true} src="/images/projects/prickly-pear/pp-5.png" alt="test"  />
             </div>
             <div className="page__banner">
-                <Image width={400} height={280} layout="responsive" priority={true} src="/images/projects/prickly-pear/pp-1.png" alt="test"  />
+                <Image width={400} height={280} layout="responsive" priority={true} src="/images/projects/prickly-pear/pear-laptop.png" alt="test"  />
             </div>
         </div>
     )

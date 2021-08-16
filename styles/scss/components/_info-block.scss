@@ -48,30 +48,30 @@
     }
 
     &__image {
-        width: 25rem;
+        width: 31rem;
         transform: rotate(3.41deg);
         position: absolute;
-        bottom: -26rem;
+        bottom: -29rem;
         right: 0;
         @media only screen and (max-width: 1300px) {
-            width: 22rem;
+            width: 25rem;
             bottom: -24rem;
         }
         @media only screen and (max-width: 1250px) {
-            width: 19rem;
+            width: 23rem;
             bottom: -21rem;
         }
         @media only screen and (max-width: 1130px) {
-            width: 16rem;
+            width: 19rem;
             bottom: -18rem;
         }
         @media only screen and (max-width: 600px) {
-            width: 13rem;
+            width: 15rem;
             bottom: -14rem;
         }
         @include atExtraSmall {
             width: 12rem;
-            bottom: -13rem;
+            bottom: -11rem;
             right: 0%;
         }
 

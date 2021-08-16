@@ -25,7 +25,7 @@
             cursor: pointer;
 
             p {
-                font-size: 40px;
+                font-size: 35px;
                 text-transform: uppercase;
                 margin: 0;
                 padding-top: $padding-sm;
@@ -56,13 +56,16 @@
     }
 }
 
-.motion-header {
+.motion-header, .design-header {
     color: #5F4F66;
     font-size: 40px;
     line-height: 57.8px;
-    border-bottom: 1px solid $purple;
     margin-bottom: 2rem;
     display: inline-block;
+}
+
+.motion-header {
+    border-bottom: 1px solid $purple;
 }
 
 .motion-grid {

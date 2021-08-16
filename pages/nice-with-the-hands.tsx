@@ -11,7 +11,7 @@ export default function niceHands() {
                 <p>Parts Models NY is the leading model management company specializing in models for body parts. A logo for a represented hand model that uses her catchphrase “Nice With The Hands” for merchandising purposes.</p>
             </div>
             <div className="page__image last">
-                <Image width={400} height={340} layout="responsive" priority={true} src="/images/projects/nice-hands/nice-hands-2.gif" alt="test"  />
+                <Image width={400} height={340} layout="responsive" priority={true} src="/motion/hands-motiion.gif" alt="test"  />
             </div>
             <div className="page__content">
                 <h2>Concept</h2>

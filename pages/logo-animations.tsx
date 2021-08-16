@@ -8,10 +8,10 @@ export default function logoAnimations() {
             </div>
             <div className="page__content">
                 <h2>Context</h2>
-                <p>Various Logo Animations</p>
+                <p>Various logo animations.</p>
             </div>
             <div className="page__image last">
-                <Image width={400} height={340} layout="responsive" priority={true} src="/motion/num-motion.gif" alt="test"  />
+                <Image width={400} height={380} layout="responsive" priority={true} src="/motion/num-motion.gif" alt="test"  />
             </div>
             <div className="page__image last">
                 <Image width={400} height={340} layout="responsive" priority={true} src="/motion/hands-motiion.gif" alt="test"  />
