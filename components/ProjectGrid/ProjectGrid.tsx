@@ -25,7 +25,7 @@ export default function ProjectGrid() {
                 })
             }
         </div>
-        <h2>Motion</h2>
+        <h2 className="motion-header">Motion</h2>
         <div className="motion-grid">
             {
                 motionList.map((motion: any, id: number) => {
