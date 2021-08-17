@@ -14,7 +14,7 @@ export default function kidQuixot() {
                 <Image width={400} height={270} layout="responsive" priority={true} src="/images/projects/kid-quixot/kid-quixot-1.png" alt="test"  />
             </div>
             <div className="page__content">
-                <h2>The Logo</h2>
+                <h2>The Concept</h2>
                 <p>A pitch deck that summarizes the vision of the directors for potential investors while also conveying the spirit of the film using drawings from the children it features.</p>
             </div>
             <div className="page__image">

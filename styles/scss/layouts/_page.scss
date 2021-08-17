@@ -10,6 +10,12 @@
                 margin-bottom: 2rem;
             }
         }
+        &.banner-last-last {
+            margin-bottom: 240px;
+                @include atSmallMedium {
+                margin-bottom: 2rem;
+            }
+        }
         
         img {
             width: 100%;
@@ -20,6 +26,10 @@
         width: 75%;
         margin: 0 auto;
         margin-bottom: 240px;
+
+        &.same {
+            margin-bottom: 120px;
+        }
         @include atSmallMedium {
             width: 100%;
             margin-bottom: 2rem;
@@ -27,6 +37,13 @@
 
         &.last {
             margin-bottom: 0;
+        }
+
+        &.smaller {
+            width: 60%;
+            @include atSmallMedium {
+                width: 100%;
+            }
         }
 
         img {

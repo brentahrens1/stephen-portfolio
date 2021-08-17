@@ -10,10 +10,10 @@ export default function logoAnimations() {
                 <h2>Context</h2>
                 <p>Various logo animations.</p>
             </div>
-            <div className="page__image last">
+            <div className="page__image last smaller">
                 <Image width={400} height={380} layout="responsive" priority={true} src="/motion/num-motion.gif" alt="test"  />
             </div>
-            <div className="page__image last">
+            <div className="page__image last smaller">
                 <Image width={400} height={340} layout="responsive" priority={true} src="/motion/hands-motiion.gif" alt="test"  />
             </div>
         </div>

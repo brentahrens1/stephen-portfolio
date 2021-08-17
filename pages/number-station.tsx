@@ -17,7 +17,7 @@ export default function numberStation() {
                 <h2>Concept</h2>
                 <p>Traditionally a Number Station was a shortwave radio station broadcasting formatted numbers for spies.  Using this concept I blended the idea with the teachings of the Quadrivium (which consists of the four subjects or arts arithmetic, geometry, music, and astronomy. Using this as a foundation the logo is constructed based on the numbers 10,6,1 and 0.</p>
             </div>
-            <div className="page__image">
+            <div className="page__image same">
                 <Image width={400} height={280} layout="responsive" priority={true} src="/images/projects/number-station/number-station-2.png" alt="test"  />
             </div>
             <div className="page__image last">

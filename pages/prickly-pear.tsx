@@ -17,19 +17,19 @@ export default function numberStation() {
                 <h2>Concept</h2>
                 <p>The re-branded visual identity is centered around the flower that the Prickly Pear Cactus bears, and the logo is paired together with a wordmark that has a sharp / prickly quality to itself. Using a more organic shape to construct the logo we’re able to size up or down way more confidently compared to the original detailed illustration. The custom graphic elements were also re-designed to have the same filled feel in comparison to the original half outlined half filled assets.</p>
             </div>
-            <div className="page__image">
+            <div className="page__image same">
                 <Image width={400} height={280} layout="responsive" priority={true} src="/images/projects/prickly-pear/pp-3.png" alt="test"  />
             </div>
-            <div className="page__image">
+            <div className="page__image same">
                 <Image width={450} height={160} layout="responsive" priority={true} src="/images/projects/prickly-pear/pp-4.png" alt="test"  />
             </div>
             <div className="page__image">
                 <Image width={400} height={280} layout="responsive" priority={true} src="/images/projects/prickly-pear/pp-1.png" alt="test"  />
             </div>
-            <div className="page__banner banner-last">
+            <div className="page__banner banner-last-last">
                 <Image width={450} height={360} layout="responsive" priority={true} src="/images/projects/prickly-pear/days-pear.png" alt="test"  />
             </div>
-            <div className="page__image">
+            <div className="page__image same">
                 <Image width={400} height={280} layout="responsive" priority={true} src="/images/projects/prickly-pear/pp-7.png" alt="test"  />
             </div>
             <div className="page__image">
